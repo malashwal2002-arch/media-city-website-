@@ -1,0 +1,24 @@
+{
+  "name": "media-city-website-",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/malashwal2002-arch/media-city-website-#readme",
+  "bugs": {
+    "url": "https://github.com/malashwal2002-arch/media-city-website-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malashwal2002-arch/media-city-website-.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch --no-source-map main.scss style.css"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.97.3"
+  }
+}
