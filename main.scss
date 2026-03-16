@@ -5,9 +5,10 @@
     font-family: "Gilroy-light";
     src: url(./gilroy-font/Gilroy-FREE/Gilroy-Light.otf) format('truetype');
 }
+
 @font-face {
     font-family: "Gilroy-bold";
-    src: url(./gilroy-font/Gilroy-FREE/Gilroy-ExtraBold.otf) format('truetype');
+    src: url(./gilroy-font/Gilroy-FREE/Gilroy-Bold.ttf) format('truetype');
 }
 
 body {
@@ -25,6 +26,7 @@ body {
 // Header start 
 header {
     padding: 0 44px;
+
     @media (max-width:900px) {
         padding: 0 10px;
     }
@@ -32,6 +34,7 @@ header {
 }
 
 .navbar-brand {
+
     // Desktop screen 
     @media (max-width: 1566px) {
         img {
@@ -58,27 +61,33 @@ header {
     .nav-item {
         font-weight: bold;
         font-size: 14px;
+
         // Desktop screen 
         @media (min-width: 1566px) {
             font-size: 17px;
+
             a {
                 img {
                     width: 11px;
                 }
             }
         }
+
         // laptop screen
         @media (max-width: 1374px) {
             font-size: 12px;
+
             a {
                 img {
                     width: 7px;
                 }
             }
         }
+
         // laptop screen
         @media (max-width: 1121px) {
             font-size: 9px;
+
             a {
                 img {
                     width: 5px;
@@ -86,6 +95,7 @@ header {
             }
         }
     }
+
     .nav-link {
         color: $dark-text !important;
     }
@@ -97,23 +107,27 @@ header {
     gap: 16px;
     display: flex;
     align-items: center;
+
     // Desktop screen 
     @media (min-width:1566px) {
         font-size: 15px;
         margin-left: 25px;
         gap: 10px;
     }
+
     // laptop screen
     @media (max-width: 1370px) {
         font-size: 10px;
         margin-left: 10px;
         gap: 6px;
     }
+
     .language-option {
         border: 1px solid $border-text-line-color;
         border-radius: 30px;
         background-color: $light-text-color;
         color: $border-text-line-color;
+
         // Desktop screen 
         @media (min-width: 1566px) {
             a {
@@ -126,6 +140,7 @@ header {
                 }
             }
         }
+
         // laptop screen 
         @media (max-width: 1370px) {
             a {
@@ -154,6 +169,7 @@ header {
                 }
             }
         }
+
         // laptop screen 
         @media (max-width: 1370px) {
             a {
@@ -163,12 +179,14 @@ header {
             }
         }
     }
+
     .start-button-header {
         border: 1px solid $border-text-line-color;
         border-radius: 30px;
         font-weight: 600;
         background-color: $light-text-color;
         padding: 12px 21px;
+
         &:hover {
             color: $light-text-color;
             background-color: $btn-background-color;
@@ -179,6 +197,7 @@ header {
         }
     }
 }
+
 // Header end 
 
 // Section-1 start 
@@ -189,6 +208,7 @@ header {
         padding: 0 10px;
     }
 }
+
 .hero-section {
     margin-top: 5px;
     height: 840px;
@@ -382,6 +402,8 @@ header {
         font-size: 48px;
         line-height: 64px;
         color: $dark-text;
+        font-family: 'Gilroy-bold';
+
         // ipad phone screen 
         @media (max-width:1024px) {
             font-size: 30px;
@@ -407,8 +429,8 @@ header {
         font-size: 17px;
         font-weight: 600;
         letter-spacing: 0.85px;
-        border-bottom: 1px solid $search-icon-bc;
-        padding-bottom: 4px;
+        border-bottom: 1px solid $teal-color;
+        padding-bottom: 10px;
         transition: $transition-smooth;
 
         // ipad phone screen 
@@ -422,7 +444,7 @@ header {
 
         &:hover {
             color: $teal-color;
-            border-color: $teal-color;
+
         }
     }
 
@@ -435,6 +457,7 @@ header {
 
         figure {
             position: relative;
+
             img {
                 width: 100%;
                 height: 250px;
@@ -456,10 +479,10 @@ header {
             left: 20px;
             right: 20px;
             color: $light-text-color;
-            font-size: 1.15rem;
-            font-weight: 600;
+            font-size: 23px;
+            font-weight: 700;
             z-index: 2;
-            line-height: 1.3;
+            line-height: 30px;
         }
     }
 }
@@ -506,14 +529,15 @@ header {
             margin-bottom: 35px;
         }
     }
+
     .btn-read-more {
         text-decoration: none;
         color: $dark-text;
         font-size: 17px;
         font-weight: 600;
         letter-spacing: 0.85px;
-        border-bottom: 1px solid $search-icon-bc;
-        padding-bottom: 4px;
+        border-bottom: 1px solid $teal-color;
+        padding-bottom: 10px;
 
         // ipad phone screen 
         @media (max-width:1024px) {
@@ -526,10 +550,10 @@ header {
 
         &:hover {
             color: $teal-color;
-            border-color: $teal-color;
         }
     }
 }
+
 // About MCQ Section end
 
 // Boxes start 
@@ -900,7 +924,6 @@ header {
     h4 {
         font-size: 24px;
         font-weight: 600;
-
     }
 
     p {
@@ -917,12 +940,14 @@ header {
 
     .client-card {
         row-gap: 15px;
+
         @media (min-width:992px) {
             row-gap: 20px;
             padding-right: 20px;
-            padding-left: 45909px;
+            padding-left: 45px;
             border-right: 1px solid $border-text-line-color;
-            &:nth-child(1){
+
+            &:nth-child(1) {
                 padding-left: 0px;
             }
         }
@@ -1046,6 +1071,7 @@ header {
         }
     }
 }
+
 // Get in touch with us end
 
 // Media center start
@@ -1068,9 +1094,10 @@ header {
         font-size: 17px;
         font-weight: 600;
         letter-spacing: 0.85px;
-        border-bottom: 1px solid $search-icon-bc;
-        padding-bottom: 4px;
+        border-bottom: 1px solid $teal-color;
+        padding-bottom: 10px;
         transition: $transition-smooth;
+
         // ipad phone screen 
         @media (max-width:1024px) {
             font-size: 14px;
@@ -1082,7 +1109,6 @@ header {
 
         &:hover {
             color: $teal-color;
-            border-color: $teal-color;
         }
     }
 
@@ -1122,7 +1148,7 @@ header {
         .card-text {
             font-size: 24px;
             line-height: 32px;
-            font-weight:900;
+            font-weight: 900;
         }
     }
 }
@@ -1202,6 +1228,7 @@ header {
             border-radius: 50%;
             width: 30px;
             height: 30px;
+
             .bi {
                 font-size: 10px;
             }
