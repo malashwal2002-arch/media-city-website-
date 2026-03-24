@@ -116,7 +116,6 @@ header {
 .buttens-header {
     font-size: 14px;
     margin-left: 36px;
-
     gap: 16px;
     display: flex;
     align-items: center;
@@ -158,6 +157,7 @@ header {
 
         // laptop screen 
         @media (max-width: 1370px) {
+            font-size: 12px;
             a {
                 .flag-qatar {
                     width: 11px;
@@ -202,6 +202,10 @@ header {
         font-size: 20px;
         background-color: $light-text-color;
         padding: 12px 21px;
+
+        @media (max-width:1370px) {
+            font-size: 13px;
+        }
 
         &:hover {
             color: $light-text-color;
