@@ -3,13 +3,18 @@
 
 @font-face {
     font-family: "Gilroy-light";
-    src: url(./gilroy-font/Gilroy-FREE/Gilroy-Light.otf) format('truetype');
+    src: url(./fonts/Gilroy-LightItalic.woff) format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
     font-family: "Gilroy-bold";
-    src: url(./gilroy-font/Gilroy-FREE/Gilroy-Bold.ttf) format('truetype');
+    src: url(./fonts/Gilroy-Bold.woff) format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
+
 
 body {
     margin: 0;
@@ -213,7 +218,7 @@ header {
     margin-top: 5px;
     height: 840px;
     position: relative;
-    // background-image: url(./asste/Bg-img.png);
+    // background-image: url(./assets/Bg-img.png);
     border-radius: 25px;
     overflow: hidden;
 
@@ -808,7 +813,7 @@ header {
 // Set up your business start
 .Set-up-your-business {
     position: relative;
-    overflow: hidden;  
+    overflow: hidden;
     background-color: $set-up-your-business-bg;
     color: $light-text-color;
     background-size: cover;
@@ -824,6 +829,7 @@ header {
         transform: translate(-50%, -50%);
         object-fit: cover;
     }
+
     .video-overlay {
         position: absolute;
         top: 0;
@@ -832,6 +838,7 @@ header {
         height: 100%;
         z-index: 1;
     }
+
     .set-up-your-business-wrapper {
         position: relative;
         z-index: 2;
@@ -938,13 +945,30 @@ header {
             }
         }
     }
-
-
 }
 
 // Set up your business end 
 
 // Our Clients start 
+.header-our-clients {
+    position: relative;
+
+    .line{
+        border: 1px solid $border-text-line-color;
+        opacity: 0.2;
+    }
+    .our-clients-label {
+        font-size: 22px;
+        letter-spacing: 20%;
+        font-weight: 500;
+        background-color: $light-text-color;
+        z-index: 2;
+        color: $dark-text;
+        position: absolute;
+        top: -16px;
+        left: 15%;
+    }
+}
 .our-clients {
     h4 {
         font-size: 24px;
@@ -957,12 +981,7 @@ header {
         line-height: 29px;
     }
 
-    .our-clients-label {
-        font-size: 22px;
-        letter-spacing: 20%;
-        font-weight: 500;
-    }
-
+   
     .client-card {
         row-gap: 15px;
 
@@ -970,8 +989,8 @@ header {
             row-gap: 20px;
             padding-right: 20px;
             padding-left: 45px;
-            border-right: 1px solid $border-text-line-color;
-
+            border-right: 1px solid $border-text-line-color ;
+            
             &:nth-child(1) {
                 padding-left: 0px;
             }
@@ -994,7 +1013,7 @@ header {
 
     .contact-wrapper {
         position: relative;
-        background: url('./asste/get\ in\ touch\ img.png') no-repeat center center;
+        background: url('./assets/get\ in\ touch\ img.png') no-repeat center center;
         background-size: cover;
         border-radius: 25px;
         overflow: hidden;
@@ -1013,6 +1032,7 @@ header {
         color: $btn-background-color;
         padding: 8px 25px;
         border-radius: 50px;
+        border-width: 1px;
         text-decoration: none;
         font-weight: 600;
         gap: 10px;
@@ -1184,7 +1204,7 @@ header {
 .footer-card {
     color: $light-text-color;
     border-radius: 25px;
-    background-image: url(./asste/footer-bg.svg);
+    background-image: url(./assets/footer-bg.svg);
     background-size: auto 120%;
 
     .email-box {
