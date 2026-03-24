@@ -64,7 +64,7 @@ header {
     // Ipad screen 
     @media (max-width: 1052px) {
         img {
-            width: 120px;
+            width: 110px;
         }
     }
 }
@@ -76,7 +76,7 @@ header {
 
         // Desktop screen 
         @media (min-width: 1566px) {
-            font-size: 17px;
+            font-size: 21px;
 
             a {
                 img {
@@ -86,8 +86,8 @@ header {
         }
 
         // laptop screen
-        @media (max-width: 1374px) {
-            font-size: 12px;
+        @media (max-width: 1589px) {
+            font-size: 17px;
 
             a {
                 img {
@@ -97,7 +97,28 @@ header {
         }
 
         // laptop screen
-        @media (max-width: 1139px) {
+        @media (max-width: 1459px) {
+            font-size: 14px;
+
+            a {
+                img {
+                    width: 5px;
+                }
+            }
+        }
+
+        //  less then laptop
+        @media (max-width: 1221px) {
+            font-size: 11px;
+
+            a {
+                img {
+                    width: 5px;
+                }
+            }
+        }
+
+        @media (max-width: 1100px) {
             font-size: 9px;
 
             a {
@@ -106,6 +127,7 @@ header {
                 }
             }
         }
+
     }
 
     .nav-link {
@@ -158,6 +180,7 @@ header {
         // laptop screen 
         @media (max-width: 1370px) {
             font-size: 12px;
+
             a {
                 .flag-qatar {
                     width: 11px;
@@ -200,7 +223,8 @@ header {
         border-radius: 30px;
         font-family: 'Gilroy-600', sans-serif;
         font-size: 20px;
-        background-color: $light-text-color;
+        background-color: $btn-background-color;
+        color: $light-text-color;
         padding: 12px 21px;
 
         @media (max-width:1370px) {
@@ -208,12 +232,8 @@ header {
         }
 
         &:hover {
-            color: $light-text-color;
-            background-color: $btn-background-color;
-
-            a {
-                color: $light-text-color !important;
-            }
+            background-color: $light-text-color;
+            color: $btn-background-color !important;
         }
     }
 }
@@ -431,7 +451,7 @@ header {
     }
 
     .section-desc {
-        font-family: 'Gilroy-400',sans-serif;
+        font-family: 'Gilroy-400', sans-serif;
         font-size: 24px;
         line-height: 32px;
 
@@ -517,7 +537,7 @@ header {
     }
 
     .section-title {
-         font-family: 'Gilroy-700',sans-serif;
+        font-family: 'Gilroy-700', sans-serif;
         font-size: 48px;
         line-height: 64px;
         color: $dark-text;
@@ -535,7 +555,7 @@ header {
     }
 
     .section-desc {
-        font-family: 'Gilroy-400',sans-serif;
+        font-family: 'Gilroy-400', sans-serif;
         font-size: 24px;
         line-height: 36px;
         color: $dark-text;
@@ -635,7 +655,7 @@ header {
         p {
             color: $dark-text;
             font-size: 18px;
-             font-family: 'Gilroy-400',sans-serif;
+            font-family: 'Gilroy-400', sans-serif;
             line-height: 1.5;
             margin-bottom: 0;
 
@@ -708,7 +728,7 @@ header {
 
         .offer-label {
             font-size: 20px;
-            font-family: 'Gilroy-500',sans-serif;
+            font-family: 'Gilroy-500', sans-serif;
             line-height: 54px;
             padding: 0 20px;
             letter-spacing: 20%;
@@ -719,7 +739,7 @@ header {
 
             @media (max-width:800px) {
                 font-size: 15px;
-                font-family: 'Gilroy-500',sans-serif;
+                font-family: 'Gilroy-500', sans-serif;
                 line-height: 34px;
                 left: 30px;
                 letter-spacing: 15%;
@@ -736,7 +756,7 @@ header {
 
         h2 {
             font-size: 40px;
-            font-family: 'Gilroy-700',sans-serif;
+            font-family: 'Gilroy-700', sans-serif;
             line-height: 50px;
 
             @media (max-width:1024px) {
@@ -752,7 +772,7 @@ header {
 
         p {
             font-size: 20px;
-            font-family: 'Gilroy-400',sans-serif;
+            font-family: 'Gilroy-400', sans-serif;
             line-height: 30px;
 
             @media (max-width:1024px) {
@@ -771,7 +791,7 @@ header {
             text-decoration: none;
             color: $light-text-color;
             font-size: 16px;
-            font-family: 'Gilroy-500',sans-serif;
+            font-family: 'Gilroy-500', sans-serif;
             letter-spacing: 0.85px;
             border-bottom: 1px solid $search-icon-bc;
             padding-bottom: 5px;
@@ -797,7 +817,7 @@ header {
 
         h4 {
             font-size: 24px;
-             font-family: 'Gilroy-700',sans-serif;
+            font-family: 'Gilroy-700', sans-serif;
             line-height: 33px;
 
             @media (max-width:800px) {
@@ -808,7 +828,7 @@ header {
 
         p {
             font-size: 18px;
-            font-family: 'Gilroy-400',sans-serif;
+            font-family: 'Gilroy-400', sans-serif;
             line-height: 26px;
 
             @media (max-width:1024px) {
@@ -865,7 +885,7 @@ header {
 
     h2 {
         font-size: 36px;
-         font-family: 'Gilroy-700',sans-serif;
+        font-family: 'Gilroy-700', sans-serif;
         line-height: 50px;
 
         @media (max-width:1024px) {
@@ -881,7 +901,7 @@ header {
 
     p {
         font-size: 20px;
-        font-family: 'Gilroy-400',sans-serif;
+        font-family: 'Gilroy-400', sans-serif;
         line-height: 30px;
 
         @media (max-width:1024px) {
@@ -920,7 +940,7 @@ header {
 
         h4 {
             font-size: 24px;
-             font-family: 'Gilroy-700',sans-serif;
+            font-family: 'Gilroy-700', sans-serif;
             line-height: 33px;
 
             @media (max-width:800px) {
@@ -931,7 +951,7 @@ header {
 
         p {
             font-size: 18px;
-            font-family: 'Gilroy-400',sans-serif;
+            font-family: 'Gilroy-400', sans-serif;
             line-height: 26px;
 
             @media (max-width:1024px) {
@@ -968,13 +988,14 @@ header {
 .header-our-clients {
     position: relative;
 
-    .line{
+    .line {
         border: 1px solid $border-text-line-color;
         opacity: 0.2;
     }
+
     .our-clients-label {
         font-size: 22px;
-        font-family: 'Gilroy-500',sans-serif;
+        font-family: 'Gilroy-500', sans-serif;
         letter-spacing: 20%;
         background-color: $light-text-color;
         z-index: 2;
@@ -984,6 +1005,7 @@ header {
         left: 15%;
     }
 }
+
 .our-clients {
     h4 {
         font-size: 24px;
@@ -992,11 +1014,11 @@ header {
 
     p {
         font-size: 18px;
-        font-family: 'Gilroy-400',sans-serif;
+        font-family: 'Gilroy-400', sans-serif;
         line-height: 29px;
     }
 
-   
+
     .client-card {
         row-gap: 15px;
 
@@ -1005,7 +1027,7 @@ header {
             padding-right: 20px;
             padding-left: 45px;
             border-right: 1px solid $border-text-line-color ;
-            
+
             &:nth-child(1) {
                 padding-left: 0px;
             }
@@ -1086,7 +1108,7 @@ header {
         p {
             font-size: 18px;
             line-height: 29px;
-            font-family: 'Gilroy-400',sans-serif;
+            font-family: 'Gilroy-400', sans-serif;
         }
 
         @media (max-width:1199px) {
@@ -1138,14 +1160,14 @@ header {
 .media-center-warpper {
     h1 {
         font-size: 48px;
-         font-family: 'Gilroy-700',sans-serif;
+        font-family: 'Gilroy-700', sans-serif;
         line-height: 64px;
     }
 
     p {
         font-size: 22px;
         line-height: 32px;
-        font-family: 'Gilroy-400',sans-serif;
+        font-family: 'Gilroy-400', sans-serif;
     }
 
     .btn-Explore {
@@ -1259,7 +1281,7 @@ header {
 .footer-wrapper {
     h5 {
         font-size: 17px;
-         font-family: 'Gilroy-700',sans-serif;
+        font-family: 'Gilroy-700', sans-serif;
     }
 
     p {

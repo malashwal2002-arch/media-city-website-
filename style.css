@@ -48,7 +48,7 @@ header {
 }
 @media (max-width: 1052px) {
   .navbar-brand img {
-    width: 120px;
+    width: 110px;
   }
 }
 
@@ -58,21 +58,37 @@ header {
 }
 @media (min-width: 1566px) {
   .navbar-nav .nav-item {
-    font-size: 17px;
+    font-size: 21px;
   }
   .navbar-nav .nav-item a img {
     width: 10px;
   }
 }
-@media (max-width: 1374px) {
+@media (max-width: 1589px) {
   .navbar-nav .nav-item {
-    font-size: 12px;
+    font-size: 17px;
   }
   .navbar-nav .nav-item a img {
     width: 7px;
   }
 }
-@media (max-width: 1139px) {
+@media (max-width: 1459px) {
+  .navbar-nav .nav-item {
+    font-size: 14px;
+  }
+  .navbar-nav .nav-item a img {
+    width: 5px;
+  }
+}
+@media (max-width: 1221px) {
+  .navbar-nav .nav-item {
+    font-size: 11px;
+  }
+  .navbar-nav .nav-item a img {
+    width: 5px;
+  }
+}
+@media (max-width: 1100px) {
   .navbar-nav .nav-item {
     font-size: 9px;
   }
@@ -153,7 +169,8 @@ header {
   border-radius: 30px;
   font-family: "Gilroy-600", sans-serif;
   font-size: 20px;
-  background-color: #ffffff;
+  background-color: #2F1D77;
+  color: #ffffff;
   padding: 12px 21px;
 }
 @media (max-width: 1370px) {
@@ -162,11 +179,8 @@ header {
   }
 }
 .buttens-header .start-button-header:hover {
-  color: #ffffff;
-  background-color: #2F1D77;
-}
-.buttens-header .start-button-header:hover a {
-  color: #ffffff !important;
+  background-color: #ffffff;
+  color: #2F1D77 !important;
 }
 
 .hero-section-container {
